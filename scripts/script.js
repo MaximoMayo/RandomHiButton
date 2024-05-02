@@ -21,11 +21,22 @@ function generateHello() {
       "Victor Mata Castaneda",
       "Andrea Ceballos",
     ];
+
+    const welcomeMessage = [
+        "Howdy, ",
+        "Hello, ",
+        "Welcome, ",
+        "I've been expecing you, ",
+        "Introducing the one and only, ",
+        "One whos name must not be spoken, ",
+        "The legend themselves, "
+    ];
   
     // Randomly select a question
     const index = Math.floor(Math.random() * questions.length);
+    const index2 = Math.floor(Math.random() * welcomeMessage.length);
   
-    document.getElementById("displayQuestion").innerHTML = `Hi ${questions[index]}`;
+    document.getElementById("displayQuestion").innerHTML = `${welcomeMessage[index2]} ${questions[index]}`;
     // return questions[index];
   }
   
