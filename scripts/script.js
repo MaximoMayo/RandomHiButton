@@ -1,4 +1,4 @@
-function generateIcebreaker() {
+function generateHello() {
     const questions = [
       "Sabrina Robles",
       "Maximo Mayo",
