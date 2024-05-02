@@ -29,7 +29,10 @@ function generateHello() {
         "I've been expecing you, ",
         "Introducing the one and only, ",
         "One whos name must not be spoken, ",
-        "The legend themselves, "
+        "The legend themselves, ",
+        "Hi, ",
+        "The infamous, ",
+        "Good day, "
     ];
   
     // Randomly select a question
