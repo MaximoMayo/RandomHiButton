@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
 body {
     background-color: #f8f9fa; /* Light gray background for a subtle look */
     height: 100vh; /* Full viewport height */
@@ -5,6 +7,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #displayQuestion {
     margin-top: 20px;
