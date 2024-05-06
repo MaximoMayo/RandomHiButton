@@ -42,7 +42,61 @@ function generateHello() {
     document.getElementById("displayQuestion").innerHTML = `${welcomeMessage[index2]} ${questions[index]}`;
     // return questions[index];
   }
+
+  function SayMyName(mysecretcode) { 
+
+    let myname = document.getElementById("myName").value; 
   
+    console.log(myname); 
+  
+    alert(`Hi ${myname} - ${mysecretcode}`); 
+  
+  } 
+
+  //number1 and number2 are parameters
+  function addNumbers(number1,number2){
+    return number1 + number2;
+  }
+
+  function subNumbers(number1,number2){
+    return number1 - number2;
+  }
+
+  function multNumbers(number1,number2){
+    return number1 * number2;
+  }
+
+  function divNumbers(number1,number2){
+    return number1 / number2;
+  }
   // Example usage:
-  let thequestion = generateIcebreaker();
+  console.log(addNumbers(2,4));
+
+  function calculateAdd(){
+    let number1 = Number(document.getElementById("numberOne").value);
+    let number2 = Number(document.getElementById("numberTwo").value);
+    let result = addNumbers(number1,number2);
+    document.getElementById("result1").innerHTML = result;
+  }
+
+  function calculateSub(){
+    let number1 = Number(document.getElementById("numberOne").value);
+    let number2 = Number(document.getElementById("numberTwo").value);
+    let result = subNumbers(number1,number2);
+    document.getElementById("result1").innerHTML = result;
+  }
+
+  function calculateMult(){
+    let number1 = Number(document.getElementById("numberOne").value);
+    let number2 = Number(document.getElementById("numberTwo").value);
+    let result = multNumbers(number1,number2);
+    document.getElementById("result1").innerHTML = result;
+  }
+
+  function calculateDiv(){
+    let number1 = Number(document.getElementById("numberOne").value);
+    let number2 = Number(document.getElementById("numberTwo").value);
+    let result = divNumbers(number1,number2);
+    document.getElementById("result1").innerHTML = result;
+  }
   
